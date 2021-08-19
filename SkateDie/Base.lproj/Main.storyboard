@@ -16,47 +16,71 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3MU-31-xMf">
-                                <rect key="frame" x="299" y="729" width="37" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
-                                <state key="normal" title="start"/>
-                                <connections>
-                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W7G-ar-9o6"/>
-                                </connections>
-                            </button>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dLX-RN-Z3f">
-                                <rect key="frame" x="264" y="583" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="tastefulswitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="hFy-jX-5s7"/>
-                                </connections>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="tasteful" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fx4-A8-KmY">
-                                <rect key="frame" x="176" y="587" width="59" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="a7Q-lR-hkI">
-                                <rect key="frame" x="81" y="432" width="49" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <connections>
-                                    <action selector="repeatsswitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="6Xr-ZM-yMW"/>
-                                </connections>
-                            </switch>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="repeats" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEP-sp-H7u">
-                                <rect key="frame" x="154" y="437" width="58" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="Papyrus" family="Papyrus" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XAm-do-MGS">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="orange_wheel" translatesAutoresizingMaskIntoConstraints="NO" id="8Ln-eI-eah">
+                                        <rect key="frame" x="-161.5" y="150" width="737" height="207"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="207" id="HT7-0B-Pn5"/>
+                                            <constraint firstAttribute="width" constant="737" id="L72-0g-xgG"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pink_wheel" translatesAutoresizingMaskIntoConstraints="NO" id="HZw-I6-wQE">
+                                        <rect key="frame" x="103.5" y="407" width="207" height="207"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="207" id="GmE-Kx-I7v"/>
+                                            <constraint firstAttribute="height" constant="207" id="W7e-JE-OQT"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NO REPEATS AND TASTEFUL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Yp-Gp-wsF">
+                                        <rect key="frame" x="98" y="708" width="218.5" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="38" id="R4I-sx-H50"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdn-Fr-JfN">
+                                        <rect key="frame" x="183.5" y="790" width="47" height="31"/>
+                                        <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="17"/>
+                                        <state key="normal" title="START">
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zxR-l4-3M1"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Xdn-Fr-JfN" secondAttribute="bottom" constant="75" id="2cd-Vi-0ys"/>
+                                    <constraint firstItem="8Ln-eI-eah" firstAttribute="centerX" secondItem="XAm-do-MGS" secondAttribute="centerX" id="Pxn-Nn-UHh"/>
+                                    <constraint firstItem="Xdn-Fr-JfN" firstAttribute="centerX" secondItem="XAm-do-MGS" secondAttribute="centerX" id="Qea-7H-L1X"/>
+                                    <constraint firstItem="HZw-I6-wQE" firstAttribute="centerX" secondItem="XAm-do-MGS" secondAttribute="centerX" id="UYs-fl-3E4"/>
+                                    <constraint firstItem="HZw-I6-wQE" firstAttribute="top" secondItem="8Ln-eI-eah" secondAttribute="bottom" constant="50" id="Wj6-ik-fGV"/>
+                                    <constraint firstItem="8Yp-Gp-wsF" firstAttribute="centerX" secondItem="XAm-do-MGS" secondAttribute="centerX" id="Xao-f5-Cn1"/>
+                                    <constraint firstItem="HZw-I6-wQE" firstAttribute="top" secondItem="8Ln-eI-eah" secondAttribute="bottom" constant="50" id="aUJ-fp-Hof"/>
+                                    <constraint firstItem="8Ln-eI-eah" firstAttribute="top" secondItem="XAm-do-MGS" secondAttribute="top" constant="150" id="rkp-4v-Zwx"/>
+                                    <constraint firstAttribute="bottom" secondItem="8Yp-Gp-wsF" secondAttribute="bottom" constant="150" id="wZg-rQ-7UG"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="XAm-do-MGS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="8Rt-lT-PiG"/>
+                            <constraint firstItem="XAm-do-MGS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="DFy-PF-VHt"/>
+                            <constraint firstAttribute="bottom" secondItem="XAm-do-MGS" secondAttribute="bottom" id="oNh-au-bDK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="XAm-do-MGS" secondAttribute="trailing" id="y8l-Rf-iOE"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="settingsLabel" destination="8Yp-Gp-wsF" id="d0y-x3-fAa"/>
+                        <outlet property="wheelGraphic" destination="8Ln-eI-eah" id="Ju6-th-L50"/>
+                        <outlet property="wheelGraphic2" destination="HZw-I6-wQE" id="BBs-hU-up5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -113,6 +137,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="orange_wheel" width="737" height="770"/>
+        <image name="pink_wheel" width="704" height="701"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
