@@ -18,6 +18,9 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.readInTricks()
+        if (tricks[tricks.count-1] == "") {
+            tricks.remove(at: tricks.count - 1)
+        }
     }
     
     @IBAction func roll(_ sender: Any) {
@@ -34,6 +37,7 @@ class GameViewController: UIViewController {
     
 
     @IBAction func goBack(_ sender: Any) {
+    
         self.dismiss(animated:true, completion:nil)
     }
     

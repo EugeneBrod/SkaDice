@@ -17,6 +17,7 @@
 		A2009BB626CC615400B48C8E /* SkateDieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2009BB526CC615400B48C8E /* SkateDieUITests.swift */; };
 		A2009BCA26CC6FAA00B48C8E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2009BC926CC6FAA00B48C8E /* GameViewController.swift */; };
 		A2009BD226CD93DE00B48C8E /* tricks.txt in Resources */ = {isa = PBXBuildFile; fileRef = A2009BD126CD93DE00B48C8E /* tricks.txt */; };
+		A2EE48B226D03A8400EB7774 /* heaven.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A2EE48AA26CF093B00EB7774 /* heaven.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A2009BB726CC615400B48C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2009BC926CC6FAA00B48C8E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		A2009BD126CD93DE00B48C8E /* tricks.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = tricks.txt; sourceTree = "<group>"; };
+		A2EE48AA26CF093B00EB7774 /* heaven.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = heaven.mp4; path = ../../Downloads/heaven.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				A2009B9726CC615200B48C8E /* ViewController.swift */,
 				A2009BC926CC6FAA00B48C8E /* GameViewController.swift */,
 				A2009BD126CD93DE00B48C8E /* tricks.txt */,
+				A2EE48AA26CF093B00EB7774 /* heaven.mp4 */,
 				A2009B9926CC615200B48C8E /* Main.storyboard */,
 				A2009B9C26CC615400B48C8E /* Assets.xcassets */,
 				A2009B9E26CC615400B48C8E /* LaunchScreen.storyboard */,
@@ -241,6 +244,7 @@
 				A2009BA026CC615400B48C8E /* LaunchScreen.storyboard in Resources */,
 				A2009B9D26CC615400B48C8E /* Assets.xcassets in Resources */,
 				A2009B9B26CC615200B48C8E /* Main.storyboard in Resources */,
+				A2EE48B226D03A8400EB7774 /* heaven.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
