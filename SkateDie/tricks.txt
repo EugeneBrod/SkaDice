@@ -4,25 +4,111 @@ Backside Flip
 1
 Frontside Flip
 1
+Halfcab Flip
+1
+Fakie Flip
+1
+Frontside Halfcab Flip
+1
+Nollie Frontside Flip
+1
+Nollie Flip
+1
+Switch Flip
+1
+Switch Backside Flip
+1
+Switch Frontside Flip
+1
 Heelflip
 1
 Backside Heel
 1
 Frontside Heel
 1
-360 Shov
+Nollie Backside Heel
+1
+Nollie Frontside Heel
+1
+Switch Heel
+1
+Switch Backside Heel
+1
+Switch Frontside Heel (good luck)
+1
+Pop Shovit
+1
+Frontside Shovit
+1
+Switch Shovit
+1
+Switch Frontside Shovit
+1
+Fakie Shovit
+1
+Fakie Frontside Shovit
 0
-Double Kickflip
+Nollie Frontside Shovit
+1
+Nollie Backside Shovit
 0
+Backside Bigspin
+1
+Frontside Bigspin
+1
+Fakie Bigspin
+0
+Fakie Frontside Bigspin
+0
+Switch Backside Bigspin
+1
+Switch Frontside Bigspin
+1
+Nollie Backside Bigspin
+0
+Nollie Frontside Bigspin
+1
+Nollie Backside 360 Shov
+0
+Nollie Frontside 360 Shov
+1
+Fakie 360 Shov
+1
 Impossible
 1
 Front Shov
 1
-Front Cab
-0
 Back Cab
 1
 Treflip
 1
 Lazerflip
 0
+360 Shov
+0
+Double Kickflip
+0
+Front Cab
+0
+Nollie Backside Flip
+0
+Fakie Heel
+0
+Pressure Flip
+0
+Fronside 360 Shov
+0
+Backside Body Varial
+0
+Fronside Body Varial
+1
+Late Front Shov
+0
+Fakie Tre
+1
+Switch Tre
+1
+Nollie Tre
+1
+Varial Flip
+1

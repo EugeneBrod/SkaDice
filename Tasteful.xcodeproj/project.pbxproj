@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A2009B9026CC615200B48C8E /* SkateDie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkateDie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2009B9026CC615200B48C8E /* Tasteful.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tasteful.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2009B9326CC615200B48C8E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2009B9526CC615200B48C8E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A2009B9726CC615200B48C8E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,10 +46,10 @@
 		A2009B9C26CC615400B48C8E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2009B9F26CC615400B48C8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2009BA126CC615400B48C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2009BA626CC615400B48C8E /* SkateDieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateDieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2009BA626CC615400B48C8E /* TastefulTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TastefulTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2009BAA26CC615400B48C8E /* SkateDieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateDieTests.swift; sourceTree = "<group>"; };
 		A2009BAC26CC615400B48C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2009BB126CC615400B48C8E /* SkateDieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkateDieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2009BB126CC615400B48C8E /* TastefulUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TastefulUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2009BB526CC615400B48C8E /* SkateDieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkateDieUITests.swift; sourceTree = "<group>"; };
 		A2009BB726CC615400B48C8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2009BC926CC6FAA00B48C8E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -95,9 +95,9 @@
 		A2009B9126CC615200B48C8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2009B9026CC615200B48C8E /* SkateDie.app */,
-				A2009BA626CC615400B48C8E /* SkateDieTests.xctest */,
-				A2009BB126CC615400B48C8E /* SkateDieUITests.xctest */,
+				A2009B9026CC615200B48C8E /* Tasteful.app */,
+				A2009BA626CC615400B48C8E /* TastefulTests.xctest */,
+				A2009BB126CC615400B48C8E /* TastefulUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2009B8F26CC615200B48C8E /* SkateDie */ = {
+		A2009B8F26CC615200B48C8E /* Tasteful */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2009BBA26CC615400B48C8E /* Build configuration list for PBXNativeTarget "SkateDie" */;
+			buildConfigurationList = A2009BBA26CC615400B48C8E /* Build configuration list for PBXNativeTarget "Tasteful" */;
 			buildPhases = (
 				A2009B8C26CC615200B48C8E /* Sources */,
 				A2009B8D26CC615200B48C8E /* Frameworks */,
@@ -152,14 +152,14 @@
 			);
 			dependencies = (
 			);
-			name = SkateDie;
+			name = Tasteful;
 			productName = SkateDie;
-			productReference = A2009B9026CC615200B48C8E /* SkateDie.app */;
+			productReference = A2009B9026CC615200B48C8E /* Tasteful.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A2009BA526CC615400B48C8E /* SkateDieTests */ = {
+		A2009BA526CC615400B48C8E /* TastefulTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2009BBD26CC615400B48C8E /* Build configuration list for PBXNativeTarget "SkateDieTests" */;
+			buildConfigurationList = A2009BBD26CC615400B48C8E /* Build configuration list for PBXNativeTarget "TastefulTests" */;
 			buildPhases = (
 				A2009BA226CC615400B48C8E /* Sources */,
 				A2009BA326CC615400B48C8E /* Frameworks */,
@@ -170,14 +170,14 @@
 			dependencies = (
 				A2009BA826CC615400B48C8E /* PBXTargetDependency */,
 			);
-			name = SkateDieTests;
+			name = TastefulTests;
 			productName = SkateDieTests;
-			productReference = A2009BA626CC615400B48C8E /* SkateDieTests.xctest */;
+			productReference = A2009BA626CC615400B48C8E /* TastefulTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A2009BB026CC615400B48C8E /* SkateDieUITests */ = {
+		A2009BB026CC615400B48C8E /* TastefulUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2009BC026CC615400B48C8E /* Build configuration list for PBXNativeTarget "SkateDieUITests" */;
+			buildConfigurationList = A2009BC026CC615400B48C8E /* Build configuration list for PBXNativeTarget "TastefulUITests" */;
 			buildPhases = (
 				A2009BAD26CC615400B48C8E /* Sources */,
 				A2009BAE26CC615400B48C8E /* Frameworks */,
@@ -188,9 +188,9 @@
 			dependencies = (
 				A2009BB326CC615400B48C8E /* PBXTargetDependency */,
 			);
-			name = SkateDieUITests;
+			name = TastefulUITests;
 			productName = SkateDieUITests;
-			productReference = A2009BB126CC615400B48C8E /* SkateDieUITests.xctest */;
+			productReference = A2009BB126CC615400B48C8E /* TastefulUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +215,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2009B8B26CC615200B48C8E /* Build configuration list for PBXProject "SkateDie" */;
+			buildConfigurationList = A2009B8B26CC615200B48C8E /* Build configuration list for PBXProject "Tasteful" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +228,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2009B8F26CC615200B48C8E /* SkateDie */,
-				A2009BA526CC615400B48C8E /* SkateDieTests */,
-				A2009BB026CC615400B48C8E /* SkateDieUITests */,
+				A2009B8F26CC615200B48C8E /* Tasteful */,
+				A2009BA526CC615400B48C8E /* TastefulTests */,
+				A2009BB026CC615400B48C8E /* TastefulUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -297,12 +297,12 @@
 /* Begin PBXTargetDependency section */
 		A2009BA826CC615400B48C8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2009B8F26CC615200B48C8E /* SkateDie */;
+			target = A2009B8F26CC615200B48C8E /* Tasteful */;
 			targetProxy = A2009BA726CC615400B48C8E /* PBXContainerItemProxy */;
 		};
 		A2009BB326CC615400B48C8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A2009B8F26CC615200B48C8E /* SkateDie */;
+			target = A2009B8F26CC615200B48C8E /* Tasteful */;
 			targetProxy = A2009BB226CC615400B48C8E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -451,11 +451,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B52NX2JB42;
 				INFOPLIST_FILE = SkateDie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-";
+				PRODUCT_BUNDLE_IDENTIFIER = EugeneBrodsky.SkateDie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,11 +471,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B52NX2JB42;
 				INFOPLIST_FILE = SkateDie/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-";
+				PRODUCT_BUNDLE_IDENTIFIER = EugeneBrodsky.SkateDie;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -499,7 +501,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkateDie.app/SkateDie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasteful.app/Tasteful";
 			};
 			name = Debug;
 		};
@@ -521,7 +523,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkateDie.app/SkateDie";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tasteful.app/Tasteful";
 			};
 			name = Release;
 		};
@@ -568,7 +570,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2009B8B26CC615200B48C8E /* Build configuration list for PBXProject "SkateDie" */ = {
+		A2009B8B26CC615200B48C8E /* Build configuration list for PBXProject "Tasteful" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2009BB826CC615400B48C8E /* Debug */,
@@ -577,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2009BBA26CC615400B48C8E /* Build configuration list for PBXNativeTarget "SkateDie" */ = {
+		A2009BBA26CC615400B48C8E /* Build configuration list for PBXNativeTarget "Tasteful" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2009BBB26CC615400B48C8E /* Debug */,
@@ -586,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2009BBD26CC615400B48C8E /* Build configuration list for PBXNativeTarget "SkateDieTests" */ = {
+		A2009BBD26CC615400B48C8E /* Build configuration list for PBXNativeTarget "TastefulTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2009BBE26CC615400B48C8E /* Debug */,
@@ -595,7 +597,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2009BC026CC615400B48C8E /* Build configuration list for PBXNativeTarget "SkateDieUITests" */ = {
+		A2009BC026CC615400B48C8E /* Build configuration list for PBXNativeTarget "TastefulUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2009BC126CC615400B48C8E /* Debug */,

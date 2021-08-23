@@ -29,7 +29,12 @@ class GameViewController: UIViewController {
             return
         }
         let randomidx = Int.random(in: 0..<tricks.count)
-        trickLabel.text = tricks[randomidx]
+        UILabel.transition(with: trickLabel,
+                      duration: 0.25,
+                       options: .transitionCrossDissolve,
+                    animations: {
+                        self.trickLabel.text = self.tricks[randomidx]
+                 }, completion: nil)
         if (!self.repeats) {
             tricks.remove(at: randomidx)
         }
@@ -49,7 +54,10 @@ class GameViewController: UIViewController {
                 let myStrings = data.components(separatedBy: .newlines)
                 if (!self.tasteful) {
                     for (idx, trick) in myStrings.enumerated() {
-                        if (idx%2==0) {
+                        if (idx == myStrings.count-1) {
+                            continue
+                        }
+                        if (idx%2==0 && myStrings[idx+1] == "0") {
                             self.tricks.append(trick)
                         }
                     }
